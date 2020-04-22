@@ -43,7 +43,7 @@ services:
 
 install:
   - pipenv install
-  - pip3 install virtualenv
+  - pip install virtualenv
   - virtualenv newenv
   - source newenv/bin/activate
   - pip install django
