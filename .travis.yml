@@ -42,9 +42,11 @@ services:
   - sqlite
 
 install:
-  - sudo apt-get update
-  - pip install django
   - pipenv install
+  - pip3 install virtualenv
+  - virtualenv newenv
+  - source newenv/bin/activate
+  - pip install django
 
 script:
   - python3 manage.py test
