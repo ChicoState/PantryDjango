@@ -43,6 +43,7 @@ services:
 
 install:
   - sudo apt-get update
+  - pip install django
   - pipenv install
 
 script:
