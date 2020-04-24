@@ -37,6 +37,7 @@ dependencies:
 
 env:
   - SECRET_KEY='TEST'
+  - DJANGO=2.7
 
 services:
   - sqlite
@@ -49,4 +50,4 @@ install:
   - pip install django
 
 script:
-  - python3 manage.py test
+  - python manage.py test
