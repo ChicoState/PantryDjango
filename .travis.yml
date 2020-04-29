@@ -16,6 +16,7 @@ install:
   - source newenv/bin/activate
   - pip install q Django==$DJANGO_VERSION
   - python setup.py -q install
+  - pip install django-lint
 
 script:
   - python3 manage.py test
