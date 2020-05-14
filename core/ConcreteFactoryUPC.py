@@ -29,12 +29,12 @@ class ConcreteFactoryUPC(AbstractFactoryItems):
     def GetQuantity()->int:
         return self.Quantity
 
-
+    #set function to store the date converting from string using datetime module
     def SetReceivedDate(Date:str):
         self.ReceivedDate = datetime.strptime(Date, '%y/%m/%d')
 
-
-    def GetReceivedDate():
+    #Get function that returns datetime object converting it to string in specific format 
+    def GetReceivedDate()->str:
         return self.ReceivedDate.strftime('%y/%m/%d')
 
 
