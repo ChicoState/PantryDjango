@@ -1,5 +1,6 @@
 from AbstractFactoryItems import AbstractFactoryItems
-from datetime import date 
+from datetime import date
+from datetime import datetime
 
 class ConcreteFactoryUPC(AbstractFactoryItems):
     def __init__(self):
@@ -12,7 +13,7 @@ class ConcreteFactoryUPC(AbstractFactoryItems):
         self.ExpiryDate = DefaultDate #Initializing expiry date of the product to default date
         self.ID = "" #Donor ID
 
-
+# Following are the getter and setters for the above variables
     def SetName(ItemName:str):
         self.Name = ItemName
 
@@ -30,23 +31,27 @@ class ConcreteFactoryUPC(AbstractFactoryItems):
 
 
     def SetReceivedDate(Date:str):
-        self.ReceivedDate = Date
+        self.ReceivedDate = datetime.strptime(Date, '%y/%m/%d')
 
 
     def GetReceivedDate():
-        return self.ReceivedDate
+        return self.ReceivedDate.strftime('%y/%m/%d')
 
 
     def SetCheckOutDate(checkoutdate:str):
-        self.CheckOutDate = checkoutdate
+        self.CheckOutDate = datetime.strptime(checkoutdate, '%y/%m/%d')
+
+
+    def GetCheckOutDate()->str:
+        return self.CheckOutDate.strftime('%y/%m/%d')
 
 
     def SetExpiry(expirydate:str):
-        self.ExpiryDate = expirydate
+        self.ExpiryDate = datetime.strptime(expirydate, '%y/%m/%d')
 
 
     def GetExpiry()->str:
-        return self.ExpiryDate
+        return self.ExpiryDate.strftime('%y/%m/%d')
 
 
     def SetID(id:str):
