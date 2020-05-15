@@ -6,6 +6,11 @@ Chico State, like many other universities, has a food pantry for students who do
 
 Contributors are noted in [Contributors](Contributors.md)
 
+## Licensing
+
+This project is licensed following the MIT licene given in
+[License](LICENSE).
+
 ## Before UML diagram
 
 ![before UML diagram ](before.png "Before UML Diagram")
