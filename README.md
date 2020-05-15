@@ -46,6 +46,13 @@ This is a Abstract Factory Interface which will be implemeneted by its concrete 
 Inventory:
 We used singleton invetory class. We wanted to make a master copy of the inventory which can be used in different classes without creating new objects of the inventory. Definately new objects of the inventory classes can be created, but all the new objects will point to the same instance of inventory.
 
+Similarly we created the AbstractFactoryDonor interface to genrate the providers dynamically using the Donors class client code. 
+
+The concrete factory classes AbstractFactoryIndividualDonor and AbstractFactoryOrganizationDonor implements the interface AbstractFactoryDonor.
+
+Provider:
+This class manages and stores the AbstractFactoryDonor objects. This class will implement the essential functions like CreateDonor() and GetDonorID() which are embedded in the envery item donoted by donor.
+
 ## After UML diagram (added appliance rental)
 
 
