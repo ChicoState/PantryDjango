@@ -16,7 +16,7 @@ class additem_form(forms.ModelForm):
 	     model = inventory
 	     fields = '__all__'
 
-class checkout_form(forms.ModelForm):
+class checkout_form(forms.Form):
     name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Item Name '}))
     studentID = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Student ID '}))
     quantity  = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Quantity '}))
