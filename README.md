@@ -58,4 +58,5 @@ The official documentation and download of django Lint can be found [here](https
 
 # Travis CI Continous Integration Status 
 
+[![Build Status](https://travis-ci.org/ChicoState/PantryDjango.svg?branch=master)](https://travis-ci.org/ChicoState/PantryDjango)
 
