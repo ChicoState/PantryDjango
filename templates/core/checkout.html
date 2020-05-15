@@ -7,5 +7,13 @@
 <body>
 	{% include "core/navigation_bar.html" %}
 <h1>Checkout</h1>
+<div class="center-column">
+	<form method="POST" action="/checkout/">
+		{% csrf_token %}
+    {{checkout_data.name}}
+    {{checkout_data.studentID}}
+    {{checkout_data.quantity}}
+		<input class="btn btn-info" type="submit" name="Checkout Item">
+	</form>
 </body>
 </html>
