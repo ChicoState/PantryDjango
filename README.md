@@ -79,9 +79,9 @@ The official documentation and download of django Lint can be found [here](https
 
 # Acknowledgments & Inspiration
 
-Software Design and Maintenance Professor and Instructor Dr.Kevin Buffardi,PHD
+Software Design and Maintenance Professor and Instructor [Dr.Kevin Buffardi,PHD](https://www.csuchico.edu/csci/people/faculty/buffardi-kevin.shtml)
 
-* GitHub
-* Google Scholar
-* Twitter
-* LinkedIn
+* [GitHub](https://github.com/kbuffardi)
+* [GoogleScholar](https://scholar.google.com/citations?user=KmIt5HIAAAAJ&hl=en)
+* [Twitter](https://twitter.com/drkevinbuffardi?lang=en)
+* [LinkedIn](https://www.linkedin.com/in/kevin-buffardi-5a84351/)
