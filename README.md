@@ -18,10 +18,6 @@ Initial contributors are noted in [Contributors](Contributors.md)
 This project is licensed following the MIT licene given in
 [License](LICENSE).
 
-## Getting Started
-
-The requirements and instructions to start the web server are provided below to setup the project and make it run on your Local Machine successfully.
-
 ## Requirements
 
 Softwares and technologies used in this project are mentioned in [Requirements](requirements.txt)
