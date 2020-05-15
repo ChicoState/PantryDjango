@@ -11,6 +11,10 @@ Contributors are noted in [Contributors](Contributors.md)
 This project is licensed following the MIT licene given in
 [License](LICENSE).
 
+## Getting Started
+
+The requirements and instructions to start the web server are provided below to setup the project and make it run on your Local Machine successfully.
+
 ## Requirements
 
 Softwares and technologies used in this project are mentioned in [Requirements](requirements.txt)
@@ -72,7 +76,7 @@ The official documentation and download of django Lint can be found [here](https
 
 [![Build Status](https://travis-ci.org/ChicoState/PantryDjango.svg?branch=master)](https://travis-ci.org/ChicoState/PantryDjango)
 
-# Software Technologies Used
+# Software Technologies
 
 1. Django
 2. dbsqlite3
