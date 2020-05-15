@@ -72,4 +72,7 @@ The official documentation and download of django Lint can be found [here](https
 
 Software Design and Maintenance Professor and Instructor Dr.Kevin Buffardi,PHD
 
-* 
+* GitHub
+* Google Scholar
+* Twitter
+* LinkedIn
