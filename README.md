@@ -14,3 +14,35 @@ Chico State, like many other universities, has a food pantry for students who do
 ![after UML diagram ](after.png "After UML Diagram")
 
 
+
+# Starting the web server
+
+
+You need to be in the directory that contains the manage.py file (the PantryDjango directory). In the console, we can start the web server by running python manage.py runserver: 
+
+
+{% filename %}command-line{% endfilename %}
+```
+(myvenv) ~/DjangoPantry$ python manage.py runserver
+```
+
+If you are on a Chromebook, use this command instead:
+
+{% filename %}Cloud 9{% endfilename %}
+```
+(myvenv) ~/DjangoPantry$ python manage.py runserver 0.0.0.0:8080
+```
+
+If you are on Windows and this fails with UnicodeDecodeError, use this command instead:
+
+{% filename %}command-line{% endfilename %}
+```
+(myvenv) ~/DjangoPantry$ python manage.py runserver 0:8000
+```
+
+Now you need to check that your website is running. Open your browser (Firefox, Chrome, Safari, Internet Explorer or whatever you use) and enter this address:
+
+{% filename %}browser{% endfilename %}
+```
+http://127.0.0.1:8000/
+```
