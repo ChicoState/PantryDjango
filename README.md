@@ -65,3 +65,8 @@ The official documentation and download of django Lint can be found [here](https
 1. Django
 2. dbsqlite3
 
+# Acknowledgments & Inspiration
+
+Software Design and Maintenance Professor and Instructor Dr.Kevin Buffardi,PHD
+
+* 
