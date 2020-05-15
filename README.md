@@ -40,6 +40,12 @@ This concrete class implements AbstarctFactoryItems interface. Objects of this c
 ConcereFactoryPLU:
 This concrete class implements AbstarctFactoryItems interface. Objects of this class will hold the data of PLU type products.
 
+AbstractFactoryItems:
+This is a Abstract Factory Interface which will be implemeneted by its concrete classes.
+
+Inventory:
+We used singleton invetory class. We wanted to make a master copy of the inventory which can be used in different classes without creating new objects of the inventory. Definately new objects of the inventory classes can be created, but all the new objects will point to the same instance of inventory.
+
 ## After UML diagram (added appliance rental)
 
 
