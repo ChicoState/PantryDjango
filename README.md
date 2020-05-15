@@ -16,7 +16,9 @@ Contributors are noted in [Contributors](Contributors.md)
 
 ![after UML diagram ](after.png "After UML Diagram")
 
+### UML Diagram Description
 
+We used 2 Abstract factory design patterns. Also we used one singleton design pattern for the inventoy along with Observer design pattern for views. The details of the classes in the UML diagram are as follows.
 
 # Starting the web server
 

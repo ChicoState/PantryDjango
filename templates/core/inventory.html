@@ -7,5 +7,15 @@
 <body>
 	{% include "core/navigation_bar.html" %}
 <h1>Inventory</h1>
+
+<div class="center-column">
+	<form method="POST" action="/inventory/">
+		{% csrf_token %}
+    {{item_data.name}}
+    {{item_data.expiry_D}}
+	{{item_data.price}}
+    {{item_data.quantity}}
+		<input class="btn btn-info" type="submit" name="Add Item">
+	</form>
 </body>
 </html>
