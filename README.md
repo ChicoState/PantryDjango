@@ -11,6 +11,10 @@ Contributors are noted in [Contributors](Contributors.md)
 This project is licensed following the MIT licene given in
 [License](LICENSE).
 
+## Requirements
+
+Softwares and technologies used in this project are mentioned in [Requirements](requrirements.txt)
+
 ## Before UML diagram
 
 ![before UML diagram ](before.png "Before UML Diagram")
