@@ -3,13 +3,14 @@ from django.contrib.auth.models import User
 from django.core import validators
 from core.models import *
 
-
+class DateInput(forms.DateInput):
+   input_type = 'date'
 
 class additem_form(forms.ModelForm):
-    name = forms.CharField()
-    expiry_D = forms.DateField()
-    price = forms.FloatField()
-    quantity  = forms.CharField()
+    name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Item Name '}))
+    expiry_D = forms.DateField(widget=DateInput)
+    price = forms.FloatField(widget=forms.TextInput(attrs={'placeholder': 'Price'}))
+    quantity  = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Quantity '}))
 
     class Meta():
 	     model = inventory
