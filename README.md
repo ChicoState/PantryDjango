@@ -30,6 +30,16 @@ Softwares and technologies used in this project are mentioned in [Requirements](
 
 We used 2 Abstract factory design patterns. Also we used one singleton design pattern for the inventoy along with Observer design pattern for views. The details of the classes in the UML diagram are as follows.
 
+Item (class):
+Item class is the client code doesn’t depend on concrete classes of factories such as ConcreteFactoryUPC and ConcereFactoryPLU as long as it works with these objects via the AbstractFactoryItems interface. So that Item class can generate these objects dynamically.
+
+
+ConcreteFactoryUPC:
+This concrete class implements AbstarctFactoryItems interface. Objects of this class will hold the data of UPC type products.
+
+ConcereFactoryPLU:
+This concrete class implements AbstarctFactoryItems interface. Objects of this class will hold the data of PLU type products.
+
 ## After UML diagram (added appliance rental)
 
 
