@@ -55,3 +55,7 @@ http://127.0.0.1:8000/
 We used Django Lint as our static analysis tool that checks projects and applications that use the Django web development framework.
 It reports on common programming errors and bad code smells, including checking for nullable CharField field types, the use of deprecated Django features (such as auto_now_add) as well as the absence of recommended options in settings.py. It aims to encourage the development of high-quality re-usable Django applications.Django Lint is currently implemented as a wrapper around PyLint.
 The official documentation and download of django Lint can be found [here](https://pypi.org/project/django-lint/)
+
+# Travis CI Continous Integration Status 
+
+
