@@ -11,7 +11,19 @@ def dashboard(request):
 
 
 def checkout(request):
-	return render(request, "core/checkout.html")
+	 checkout_data = checkout_form()
+	 if (request.method=="POST"):
+	    checkout_data = checkout_form(request.POST)
+	 if checkout_data.is_valid():
+			Item_Name = checkout_data.cleaned_data['name']
+			StudentID = checkout_data.cleaned_data['studentID']
+			Quantity = checkout_data.cleaned_data['quantity']
+			print(Item_Name)
+			print(StudentID)
+			print(Quantity)
+
+	 context = {'checkout_data':checkout_data}
+	 return render(request, "core/checkout.html",context)
 
 
 
