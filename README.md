@@ -13,7 +13,7 @@ This project is licensed following the MIT licene given in
 
 ## Requirements
 
-Softwares and technologies used in this project are mentioned in [Requirements](requrirements.txt)
+Softwares and technologies used in this project are mentioned in [Requirements](requrirements)
 
 ## Before UML diagram
 
