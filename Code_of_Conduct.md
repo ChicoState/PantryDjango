@@ -53,7 +53,7 @@ further defined and clarified by project maintainers.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting [Devam Sharma](mailto:dsharma@mail.csuchico.edu) or
-[Chetan Sai Kurra]((mailto:ckurra@mail.csuchico.edu) or [Sujeet Hiramath](sshiramath@mail.csuchico.edu).
+[Chetan Sai Kurra](mailto:ckurra@mail.csuchico.edu) or [Sujeet Hiramath](sshiramath@mail.csuchico.edu).
 All complaints will be reviewed and investigated and will result in a response
 that is deemed necessary and appropriate to the circumstances. The project team
 is obligated to maintain confidentiality with regard to the reporter of an
