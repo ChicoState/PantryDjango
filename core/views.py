@@ -9,7 +9,19 @@ def dashboard(request):
 	return render(request, "core/dashboard.html")
 
 def provider(request):
-	return render(request, "core/provider.html")
+	 provider_data = provider_form()
+	 if (request.method=="POST"):
+	    provider_data = provider_form(request.POST)
+	 if provider_data.is_valid():
+			d_name = provider_data.cleaned_data['donor_name']
+			d_status = provider_data.cleaned_data['donor_status']
+			a_status = provider_data.cleaned_data['anonymus_status']
+			print(d_name)
+			print(d_status)
+			print(a_status)
+
+	 context = {'provider_data':provider_data}
+	 return render(request, "core/provider.html")
 
 
 def checkout(request):
