@@ -21,7 +21,7 @@ def provider(request):
 			print(a_status)
 
 	 context = {'provider_data':provider_data}
-	 return render(request, "core/provider.html")
+	 return render(request, "core/provider.html",context)
 
 
 def checkout(request):

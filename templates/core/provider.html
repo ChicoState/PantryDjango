@@ -7,10 +7,15 @@
 <body>
 	{% include "core/navigation_bar.html" %}
 <h1>Provider</h1>
-<div class="center-column">
-	<form method="POST" action="/inventory/">
 
-		<input class="btn btn-info" type="submit" name="Add Item">
+<div class="center-column">
+	<form method="POST" action="/provider/">
+		{% csrf_token %}
+    {{provider_data.donor_name}}
+    {{provider_data.donor_status}}
+	{{provider_data.anonymus_status}}
+    {{item_data.quantity}}
+		<input class="btn btn-info" type="submit" name="Add Provider">
 	</form>
 </body>
 </html>

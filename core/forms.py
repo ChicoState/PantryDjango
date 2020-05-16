@@ -22,7 +22,7 @@ class checkout_form(forms.Form):
     quantity  = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Quantity '}))
 
 class provider_form(forms.Form):
-    donor_name = forms.CharField(widget=forms.TextInput(attrs={'readonly': 'readonly'}))
+    donor_name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Provider Name '}))
     user_name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Provider Name'}))
     CHS = [('Individual', 'Individual'), ('Organisation', 'Organisation')]
     donor_status = forms.CharField(widget=forms.Select(attrs={'style':'display:inline;'},choices=CHS))
