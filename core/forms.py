@@ -20,3 +20,4 @@ class checkout_form(forms.Form):
     name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Item Name '}))
     studentID = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Student ID '}))
     quantity  = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Quantity '}))
+

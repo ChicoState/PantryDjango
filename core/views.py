@@ -8,6 +8,8 @@ from core.forms import *
 def dashboard(request):
 	return render(request, "core/dashboard.html")
 
+def provider(request):
+	return render(request, "core/provider.html")
 
 
 def checkout(request):
@@ -49,3 +51,4 @@ def inventory(request):
 
 	context = {'item_data':item_data}
 	return render(request, "core/inventory.html", context)
+

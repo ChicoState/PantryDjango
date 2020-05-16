@@ -23,4 +23,5 @@ urlpatterns = [
     path('checkout/', core_views.checkout, name='checkout'),
     path('impact/', core_views.impact, name='impact'),
     path('inventory/', core_views.inventory, name='inventory'),
+    path('provider/', core_views.provider, name='provider'),
 ]
